@@ -1,0 +1,8 @@
+.container {
+    @apply grid relative gap-y-6 place-items-center px-6 py-8;
+}
+
+.form_items {
+    @apply grid gap-x-2 gap-y-3 ;
+    grid-template-columns: auto 1fr;
+}

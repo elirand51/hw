@@ -1,0 +1,8 @@
+.container {
+    @apply border rounded-md border-black p-0 grid overflow-hidden;
+    grid-template-rows: max-content 1fr;
+}
+
+.children_wrapper {
+    @apply grid gap-y-2;
+}

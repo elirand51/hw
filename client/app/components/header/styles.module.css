@@ -1,0 +1,4 @@
+.h1 {
+    @apply w-full py-2 px-6 text-white text-xl text-center;
+    background-color: rgb(0, 33, 155);
+}

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply w-full h-full block box-border overflow-hidden m-0 p-0 relative;
+}
+
+body *,
+body *:before,
+body *:after {
+  box-sizing: inherit;
+}
+
+
+main {
+  @apply w-full h-full flex justify-center items-center;
+}
